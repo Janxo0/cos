@@ -1,0 +1,310 @@
+@import url ('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.title p {
+    padding: 12px;
+    text-align: center;
+    background: rgba(255,94,0);
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+}
+.title a {
+    color: #fff;
+}
+.header {
+    position: relative;
+    padding: 0 10px;
+}
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .main {
+    padding-left: 30px;
+}
+.main ul {
+    position: relative;
+    display: flex;
+}
+.main ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+.main ul li img {
+    width: 80px;
+}
+.main ul li a {
+    color: #575757;
+    text-decoration: none;
+    display: flex;
+}
+.main ul li a:hover {
+    color: rgba(255,94,0);
+}
+.sub {
+    padding-right: 0;
+    display: flex;
+}
+.sub ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.sub ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-right: 30px;
+}
+.sub ul li a {
+    color: #575757;
+    text-decoration: none;
+}
+.sub ul li a:hover {
+    color: lightgray;
+}
+.sub ul li .fa {
+    padding-right: 8px;
+}
+
+.women {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women .content {
+    position: absolute;
+    max-width: 900px;
+    text-align: center;
+    color: #fff;
+}
+.women .content h2 {
+    padding-bottom: 15px;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.women .content p {
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.women .content a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.women .content a:hover {
+    opacity: 0.8;
+}
+.women .fitBg {
+    position: relative;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sale {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sale .content {
+    position: absolute;
+    max-width: 900px;
+    text-align: center;
+    color: #fff;
+}
+.sale .content h2 {
+    padding-bottom: 5px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.sale .content p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.sale .content a {
+    text-decoration: none;
+    background: #fff;
+    font-size: 12px;
+    color: rgba(255,94,0);
+    padding: 10px 20px;
+}
+.sale .content a:hover {
+    background: rgba(255,170,170,);
+    opacity: 0.8;
+}
+.sale .fitBg {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.men {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.men .content {
+    position: absolute;
+    max-width: 900px;
+    text-align: center;
+    color: #fff;
+}
+.men .content h2 {
+    padding-bottom: 15px;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.men .content p {
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.men .content a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.men .content a:hover {
+    opacity: 0.8;
+}
+.men .fitBg {
+    position: relative;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.more {
+    margin-bottom: 100px;
+}
+.more h3 {
+    padding: 50px 0;
+    color: #575757;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: center;
+}
+.more .container {
+    position: relative;
+    margin: 50px 0;
+    padding: 0 10px;
+    min-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+.more .container .content h4{
+    color: #575757;
+    font-size: 14px;
+    padding: 15px 0;
+}
+.more .container .content p {
+    color: #575757;
+    max-width: 320px;
+    min-width: 320px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.more .container .content a {
+    font-size: 12px;
+    color: #575757;
+}
+.more .container .content a:hover {
+    color: lightgray;
+}
+.more .fitBg {
+    width: 350px;  
+}
+
+.info-footer {
+    margin: 50px 0;
+}
+.info-footer .line {
+    margin: 50px;
+    display: block;
+    border-top: 1px solid lightgray;
+}
+.info-footer .items {
+    padding-left: 50px;
+    padding-right: 100px;
+    display: inline-block;
+}
+.info-footer .items a {
+    text-decoration: none;
+    color: #575757;
+    font-size: 11px;
+    padding: 2px 0;
+    display: flex;   
+}
+.info-footer .items a:hover {
+    color: lightgray;
+}
+
+.footer {
+    background: #f7f3f3;
+    display: block;
+    padding: 50px;
+}
+.footer .footerSec {
+    display: flex;
+}
+.footer .section01 {
+    display: block;
+    padding-right: 130px;
+}
+.footer .section02 {
+    padding-right: 50px;
+    font-size: 11px;
+}
+.footer .section02 a {
+    display: flex;
+    padding: 2px 0;
+    color: #575757;
+}
+.footer .section02 #id {
+    font-size: 13px;
+    font-weight: 800;
+}
+.footer .section02 p {
+    padding: 20px 0;
+}
+.footer .section02 #link {
+    display: inline;
+}
+.footer .section01 img{
+    width: 90px;
+}
+.footer .section03 p {
+    font-size: 11px;
+    line-height: 25px;
+    color: #575757
+}
+.footer .section03 a {
+    color: #575757
+}
